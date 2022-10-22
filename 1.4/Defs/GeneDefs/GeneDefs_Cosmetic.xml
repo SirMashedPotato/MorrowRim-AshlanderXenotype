@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>MorrowRim_SkinAshlander_Blue</defName>
+		<label>bruise-blue skin</label>
+		<labelShortAdj>bruise-blue</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that turns their skin bruise-blue.</description>
+		<skinColorOverride>(119,128,142)</skinColorOverride>
+		<displayOrderInCategory>200</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>bruise</symbol>
+				</li>
+				<li>
+					<symbol>ash</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>blue</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>MorrowRim_SkinAshlander_Green</defName>
+		<label>bruise-green skin</label>
+		<labelShortAdj>bruise-green</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that turns their skin bruise-green.</description>
+		<skinColorOverride>(138,155,140)</skinColorOverride>
+		<displayOrderInCategory>200</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>bruise</symbol>
+				</li>
+				<li>
+					<symbol>ash</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>green</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
+	<GeneDef ParentName="GeneSkinColorOverride">
+		<defName>MorrowRim_SkinAshlander_Purple</defName>
+		<label>bruise-Purple skin</label>
+		<labelShortAdj>bruise-Purple</labelShortAdj>
+		<description>Carriers of this gene produce a pigment that turns their skin bruise-Purple.</description>
+		<skinColorOverride>(144,137,153)</skinColorOverride>
+		<displayOrderInCategory>200</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>bruise</symbol>
+				</li>
+				<li>
+					<symbol>ash</symbol>
+				</li>
+			</prefixSymbols>
+			<suffixSymbols>
+				<li>
+					<symbol>Purple</symbol>
+				</li>
+			</suffixSymbols>
+		</symbolPack>
+	</GeneDef>
+</Defs>

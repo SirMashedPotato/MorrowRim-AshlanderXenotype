@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<FactionDef ParentName="TribeRoughBase">
+		<defName>MorrowRim_TribeRoughAshlander</defName>
+		<label>fierce ashlander tribe</label>
+		<description>An unfriendly, territorial tribe of ashlanders. They are open to peaceful trade, but otherwise are not exactly welcoming. Their numbers make them serious foes despite their lack of technology.\n\nHaving been on this planet for countless generations, they have no memory of how they got here. They might be the descendants of a ashlander colonists, or even the leftovers from some ancient science experiment.</description>
+		<factionIconPath>World/WorldObjects/Expanding/MorrowRim_AshlanderSettlement</factionIconPath>
+		<factionNameMaker>MorrowRim_NamerFactionAshlanderTribe</factionNameMaker>
+		<settlementNameMaker>MorrowRim_NamerSettlementAshlanderTribe</settlementNameMaker>
+		<pawnSingular>ashlander</pawnSingular>
+		<pawnsPlural>ashlanders</pawnsPlural>
+		<!--<replacesFaction>TribeRough</replacesFaction>-->
+		<melaninRange>0~0.5</melaninRange>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+				<MorrowRim_AshlanderXenotype>999</MorrowRim_AshlanderXenotype>
+			</xenotypeChances>
+			<warnIfTotalAbove1>false</warnIfTotalAbove1>
+		</xenotypeSet>
+		<dialogFactionGreetingHostile>MorrowRim_DunmerFactionGreetingHostile</dialogFactionGreetingHostile>
+		<dialogFactionGreetingHostileAppreciative>MorrowRim_DunmerFactionGreetingHostileAppreciative</dialogFactionGreetingHostileAppreciative>
+		<dialogFactionGreetingWary>MorrowRim_DunmerFactionGreetingWary</dialogFactionGreetingWary>
+		<dialogFactionGreetingWarm>MorrowRim_DunmerFactionGreetingWarm</dialogFactionGreetingWarm>
+		<modExtensions>
+		<li Class="VFECore.FactionDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">			
+			<allowedBiomes>
+				<li>AridShrubland</li>
+				<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_Ashlands</li>
+				<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_BlightedAshlands</li>
+				<li MayRequire="SirMashedPotato.MorrowRim.AshSwamp">MorrowRim_AshSwamp</li>
+				<li MayRequire="SirMashedPotato.MorrowRim.Grazelands">MorrowRim_Grazelands</li>
+				<li MayRequire="SirMashedPotato.MorrowRim.VolcanicAshlands">MorrowRim_VolcanicAshlands</li>
+			</allowedBiomes>
+		</li>
+	</modExtensions>
+	</FactionDef>
+</Defs>

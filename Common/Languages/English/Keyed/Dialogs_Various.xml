@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MorrowRim_DunmerFactionGreetingHostile>{0} wheezes expletives and disconnects.</MorrowRim_DunmerFactionGreetingHostile>
+	<MorrowRim_DunmerFactionGreetingHostileAppreciative>{0} wheezes expletives. Until you make a gesture of goodwill, {0_pronoun} will not do business with you. You can improve relations through a number of activities, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed.\n\n{0_pronoun} disconnects abruptly.</MorrowRim_DunmerFactionGreetingHostileAppreciative>
+	<MorrowRim_DunmerFactionGreetingWary>{0} wheezes a greeting.</MorrowRim_DunmerFactionGreetingWary>
+	<MorrowRim_DunmerFactionGreetingWarm>{0} wheezes a warm greeting to {NEGOTIATOR_labelShort}.</MorrowRim_DunmerFactionGreetingWarm>
+</LanguageData>

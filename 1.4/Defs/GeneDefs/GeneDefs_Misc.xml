@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<GeneDef>
+		<defName>MorrowRim_AshlanderBreathing</defName>
+		<label>ashlander breathing</label>
+		<labelShortAdj>wheezer</labelShortAdj>
+		<description>Carriers of this gene are often said to sound like an '80 year old chain-smoker that started when they were only 8 years old'. They are constantly coughing or wheezing, and most find this rather off-putting.</description>
+		<iconPath>UI/Icons/Genes/MorrowRim_Gene_AshlanderBreathing</iconPath>
+		<displayOrderInCategory>100</displayOrderInCategory>
+		<forcedTraits>
+			<li>
+				<def>CreepyBreathing</def>
+			</li>
+		</forcedTraits>
+		<biostatMet>2</biostatMet>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>creepy</symbol>
+					<weight>3</weight>
+				</li>
+				<li>
+					<symbol>wheezy</symbol>
+				</li>
+				<li>
+					<symbol>gentle</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+</Defs>

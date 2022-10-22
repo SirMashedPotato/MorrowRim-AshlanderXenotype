@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/XenotypeDef[defName="Sanguophage"]/doubleXenotypeChances</xpath>
+		<value>
+			<MorrowRim_AshlanderXenotype>0.02</MorrowRim_AshlanderXenotype>
+		</value>
+	</Operation>
+</Patch>

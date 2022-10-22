@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<HeadTypeDef ParentName="AverageBase" Name="MorrowRim_Head_AshlanderAverageBase" Abstract="True">
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>MorrowRim_Head_Ashlander</li>
+		</requiredGenes>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="NarrowBase" Name="MorrowRim_Head_AshlanderNarrowBase" Abstract="True">
+		<randomChosen>false</randomChosen>
+		<requiredGenes>
+			<li>MorrowRim_Head_Ashlander</li>
+		</requiredGenes>
+	</HeadTypeDef>
+	<!-- ==========[Male]========== -->
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderAverageBase">
+		<defName>MorrowRim_Head_AshlanderMale_AverageNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderMale/Male_Average_Normal</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderAverageBase">
+		<defName>MorrowRim_Head_AshlanderMale_AveragePointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderMale/Male_Average_Pointy</graphicPath>
+		<eyeOffsetEastWest>(0.175, 0, 0.18)</eyeOffsetEastWest>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderAverageBase">
+		<defName>MorrowRim_Head_AshlanderMale_AverageWide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderMale/Male_Average_Wide</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderNarrowBase">
+		<defName>MorrowRim_Head_AshlanderMale_NarrowNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderMale/Male_Narrow_Normal</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderNarrowBase">
+		<defName>MorrowRim_Head_AshlanderMale_NarrowPointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderMale/Male_Narrow_Pointy</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderNarrowBase">
+		<defName>MorrowRim_Head_AshlanderMale_NarrowWide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderMale/Male_Narrow_Wide</graphicPath>
+		<gender>Male</gender>
+	</HeadTypeDef>
+	<!-- ==========[Female]========== -->
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderAverageBase">
+		<defName>MorrowRim_Head_AshlanderFemale_AverageNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderFemale/Female_Average_Normal</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderAverageBase">
+		<defName>MorrowRim_Head_AshlanderFemale_AveragePointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderFemale/Female_Average_Pointy</graphicPath>
+		<eyeOffsetEastWest>(0.175, 0, 0.18)</eyeOffsetEastWest>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderAverageBase">
+		<defName>MorrowRim_Head_AshlanderFemale_AverageWide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderFemale/Female_Average_Wide</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderNarrowBase">
+		<defName>MorrowRim_Head_AshlanderFemale_NarrowNormal</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderFemale/Female_Narrow_Normal</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderNarrowBase">
+		<defName>MorrowRim_Head_AshlanderFemale_NarrowPointy</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderFemale/Female_Narrow_Pointy</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="MorrowRim_Head_AshlanderNarrowBase">
+		<defName>MorrowRim_Head_AshlanderFemale_NarrowWide</defName>
+		<graphicPath>Things/Pawn/Humanlike/Heads/MorrowRim_AshlanderFemale/Female_Narrow_Wide</graphicPath>
+		<gender>Female</gender>
+	</HeadTypeDef>
+</Defs>

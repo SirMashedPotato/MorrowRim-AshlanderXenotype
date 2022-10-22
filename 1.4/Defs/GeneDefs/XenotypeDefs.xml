@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<XenotypeDef>
+		<defName>MorrowRim_AshlanderXenotype</defName>
+		<label>ashlander</label>
+		<description>Originally an assortment of genes created to aid in settling volcanically active planets, Ashlanders have since become their own distinct xenotype. Their skin, while rather fire resistant, has taken on a strange hue, an assortment of colours that some may compare to bruises. Their eyes are often as red as the lava that scatters the land they settle. While this doesn't seem to offer any meaningful advantage, it does help deter those foreign to their lands, or maybe that's just their inherently poor social skills and constant wheezing.\n\nTheir defining feature is their ability to breathe during ash storms, a trait somewhat unique to their kind.</description>
+		<descriptionShort>Originally an assortment of genes created to aid in settling volcanically active planets, Ashlanders have since become their own distinct xenotype. They are resistant to fire, and can breathe unhindered during ash storms.</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/MorrowRim_Xenotype_Ashlander</iconPath>
+		<inheritable>true</inheritable>
+		<combatPowerFactor>1.1</combatPowerFactor>
+		<nameMaker>MorrowRim_NamerPersonAshlanderMale</nameMaker>
+		<nameMakerFemale>MorrowRim_NamerPersonAshlanderFemale</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>MorrowRim_Head_Ashlander</li>
+			<li>Ears_Pointed</li>
+			<li>Eyes_Red</li>
+			<li>Hair_MidBlack</li>
+			<li>Hair_DarkBlack</li>
+			<li>Hair_InkBlack</li>
+			<li>MorrowRim_SkinAshlander_Blue</li>
+			<li>MorrowRim_SkinAshlander_Green</li>
+			<li>MorrowRim_SkinAshlander_Purple</li>
+			<li>AptitudePoor_Cooking</li>
+			<li>AptitudePoor_Social</li>
+			<li>FireResistant</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>MorrowRim_AshlanderBreathing</li>
+			<li MayRequire="SirMashedPotato.MorrowRim">MorrowRim_AshResistance</li>
+		</genes>
+	</XenotypeDef>
+</Defs>

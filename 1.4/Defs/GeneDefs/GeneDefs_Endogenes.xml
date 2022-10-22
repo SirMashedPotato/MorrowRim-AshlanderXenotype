@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<GeneDef ParentName="GeneJawBase">
+		<defName>MorrowRim_Head_Ashlander</defName>
+		<label>ashlander head</label>
+		<description>Carriers of this gene usually have a a slim face, with an elongated chin, and pronounced brow ridges.</description>
+		<iconPath>UI/Icons/Genes/MorrowRim_Gene_AshlanderHead</iconPath>
+		<forcedHeadTypes>
+			<li>MorrowRim_Head_AshlanderMale_AverageNormal</li>
+			<li>MorrowRim_Head_AshlanderMale_AveragePointy</li>
+			<li>MorrowRim_Head_AshlanderMale_AverageWide</li>
+			<li>MorrowRim_Head_AshlanderMale_NarrowNormal</li>
+			<li>MorrowRim_Head_AshlanderMale_NarrowPointy</li>
+			<li>MorrowRim_Head_AshlanderMale_NarrowWide</li>
+			<li>MorrowRim_Head_AshlanderFemale_AverageNormal</li>
+			<li>MorrowRim_Head_AshlanderFemale_AveragePointy</li>
+			<li>MorrowRim_Head_AshlanderFemale_AverageWide</li>
+			<li>MorrowRim_Head_AshlanderFemale_NarrowNormal</li>
+			<li>MorrowRim_Head_AshlanderFemale_NarrowPointy</li>
+			<li>MorrowRim_Head_AshlanderFemale_NarrowWide</li>
+		</forcedHeadTypes>
+		<displayOrderInCategory>98</displayOrderInCategory>
+		<symbolPack>
+			<prefixSymbols>
+				<li>
+					<symbol>elongated</symbol>
+				</li>
+			</prefixSymbols>
+		</symbolPack>
+	</GeneDef>
+</Defs>
